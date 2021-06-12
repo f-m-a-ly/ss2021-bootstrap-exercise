@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-- NAVBAR --*/
+.my-bg-color {
+    background-color: #bfee90;
+}
+
+i {
+    font-size: 2rem;
+}
+
+/*-- JUMBOTRON --*/
+.my-jumbotron-settings {
+    margin-top: 3rem;  /* 1rem is 16px. so 3 x 16 = */
+}
+
+/* ============================== */
+/* ========== INDEX PAGE ======== */
+/* ============================== */
+
+.carousel-item {
+    height: 700px;
+    border-radius: 10px;
+}
+  
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    border-radius: 20px;
+}
+
+.violet-caption {
+    background-color: rgb(133, 55, 133);
+}
+
+.coral-caption {
+    background-color: #ff8080;
+}
+
+.blue-caption {
+    background-color: #1a8583;
+}
+
+.yellow-caption {
+    background-color: #ffba92;
+}
+
+
+
+/* ============================== */
+/* ======== PRODUCTS PAGE ======= */
+/* ============================== */
+
+/*-- CARD GRID --*/
+
+.first-card, .orchid-tint-card, .raindrops-div {
+    /* padding:  0;  */
+    margin-bottom: 20px;
+}
+
+
+/* .first-card, .orchid-tint-card {
+    margin: auto 1rem;
+} */
+
+
+/* ============================== */
+/* ========= PALETTE PAGE ======= */
+/* ============================== */
+
+/* Tooltip */
+.first .tooltip-inner {
+    background-color: #ff8080;
+}
+
+.first .tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: #ff8080;
+}
+
+.second .tooltip-inner {
+    background-color: #ffba92;
+}
+
+.second .tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: #ffba92;
+}
+
+.third .tooltip-inner {
+    background-color: #e0f5b9;
+    color: #000;
+}
+
+.third .tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: #e0f5b9;
+}
+
+.fourth .tooltip-inner {
+    background-color: #c6f1d6;
+    color: #000;
+}
+
+.fourth .tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: #c6f1d6;
+}
+
+/*-- GRID PALETTE --*/
+.column-padding {
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+.my-colors {
+    height: 100px;
+}
+
+/*-- FIRST GRID COLUMNS --*/
+.first {
+    background-color: #ff8080;
+}
+
+.second {
+    background-color: #ffba92;
+}
+
+.third {
+    background-color: #e0f5b9;
+}
+
+.fourth {
+    background-color: #c6f1d6;
+}
+
+/*-- SECOND GRID COLUMNS --*/
+.top-col {
+    background-color: #ffeedb;
+    height: 100%;
+}
+
+/* first nested row */
+.fifth {
+    background-color: #b6eb7a;
+}
+
+.sixth {
+    background-color: #dbdbb8;
+}
+
+.seventh {
+    background-color: #fb7813;
+}
+
+.eighth {
+    background-color: #17706e;
+}
+
+/* second nested row */
+.nineth {
+    background-color: #0779e4;
+}
+
+.tenth {
+    background-color: #4cbbb9;
+}
+
+.eleventh {
+    background-color: #77d8d8;
+}
+
+/*-- FOOTER --*/
+footer {
+    background-color: #bfee90;
+    overflow: auto;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.copyright {
+    margin: 0;
+}
+
+@media only screen and (max-width: 576px) {
+    .responsive-col {
+        height: 100px;
+    }
+}
